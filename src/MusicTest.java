@@ -44,5 +44,10 @@ public class MusicTest {
 		assertEquals(Jay.getYearOfBirth(), RC.getArtist().getYearOfBirth());
 
 	}
+	
+	@Test
+	public void testgetGenre() {
+		assertEquals("C-pop", RC.getGenre());
+	}
 
 }
