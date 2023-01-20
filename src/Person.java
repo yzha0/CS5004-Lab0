@@ -9,7 +9,7 @@
 /**
  * This class represents a person The person has a first name, last name and an year of birth.
  */
-class Person {
+public class Person {
   private String firstName;
   private String lastName;
   private int yearOfBirth;
